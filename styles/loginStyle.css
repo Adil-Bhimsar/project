@@ -1,0 +1,105 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: crimson pro;
+
+}
+
+body {
+    background: url(../images/background.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+}
+
+/*logo image style*/
+.logoImg {
+    height: 200px;
+    margin: -30px 0px;
+
+}
+
+/* container class */
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    height: 370px;
+    color: #4287f5;
+    font-size: 15px;
+}
+.container .containerImg{
+    position: relative;
+    top: -80px;
+    left: 50px;
+}
+
+
+.container div {
+    margin: 20px;
+
+}
+
+/*styling login inputs start*/
+.container input {
+    width: 250px;
+    height: 30px;
+    padding: 10px 10px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #4287f5;
+}
+
+.container input::placeholder {
+    color: #4287f5;
+}
+
+.container .inputArea,
+.submit,
+.links {
+    position: relative;
+    top: -180px
+}
+
+/*styling login input ends
+
+/*styling submit button starts*/
+.container button {
+    margin-left: 120px;
+    padding: 10px 20px;
+    border: 2px solid #4287f5;
+    background-color: #4287f5;
+    border-radius: 5px;
+    color: white;
+}
+
+.container button:hover {
+    border: 2px solid blue;
+    background-color: blue;
+    color: white;
+
+}
+
+/*styling submit button ends*/
+
+/*styling anchor tag of forgot password and signup*/
+
+.container .links a {
+    color: #4287f5;
+    text-decoration: none;
+}
+
+.container .links a:hover {
+    
+    text-decoration: underline;
+}
+
+.container .links {
+    padding-left: 80px;
+}
