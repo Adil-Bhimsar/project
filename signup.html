@@ -9,12 +9,7 @@
     <link rel="icon" type="image/jpg" href="images/favicon.jpg">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@450">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="styles/loginStyle.css">
-    <script src="https://code.jquery.com/jquery-3.6.1.min.js"
-        integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
-    <script src="app.js"></script>
-    
-    
+    <link rel="stylesheet" href="styles/signupStyle.css">
 </head>
 
 <body>
@@ -23,51 +18,54 @@
         <div class="header">
             <img src="images/logo.png" class="logoImg" alt="">
 
-            <li><a href="signup.html">Signup</a></li>
+            <li><a href="login.html">Login</a></li>
         </div>
+
+    </section>
+    <!--signup form start-->
+
+    <section>
         <div>
             <img src="images/background.jpg" class="sideImg" alt="">
         </div>
-    </section>
-    <!--header and side images ends-->
 
-    <!--form container starts-->
-    <section>
         <div class="container">
             <div>
                 <img src="images/logo.png" class="containerImg" alt="">
             </div>
-            <form action="#" method="post" id="form"> 
+            <form action="#" method="post">
                 <div class="inputArea">
                     <i class="fa fa-user" aria-hidden="true"></i>
 
-                    <input type="email" placeholder="Enter your email" id="email" >
-                    <h5 id="emailValid"></h5>
+                    <input type="text" placeholder="Enter your Name">
+                </div>
+                <div class="inputArea">
+                    <i class="fa fa-envelope" aria-hidden="true"></i>
+
+                    <input type="email" placeholder="Enter your email">
                 </div>
                 <div class="inputArea">
                     <i class="fa fa-lock" aria-hidden="true"></i>
 
-                    <input type="password" placeholder="Enter your password" id="pswrd">
-                    <h5 id="passwordValid"></h5>
+                    <input type="password" placeholder="Enter your Password">
+                </div>
+                <div class="inputArea">
+                    <i class="fa fa-lock" aria-hidden="true"></i>
+
+                    <input type="password" placeholder="Confirm password">
                 </div>
                 <div>
-                    <button type="submit" id="submit">Login</button>
+                    <button type="submit" class="submit">Signup</button>
+                </div>
+                <div class="alreadyAccount">
+                    <p>Already have an account
+                        <a href="login.html">Login</a>
+                    </p>
+                    
                 </div>
             </form>
-            <div class="links">
-                <ul>
-                    <li><a href="forgot-password.html">Forgot Password</a></li> |
-                    <li><a href="signup.html">Signup</a></li>
-                </ul>
-            </div>
-
         </div>
     </section>
-
-    <!--form container ends-->
-
-    <!--policies starts-->
-
     <section>
         <ul class="policies">
             <li>
@@ -82,6 +80,7 @@
         </ul>
         <!--policies ends-->
     </section>
+
     <!--footer starts-->
     <section>
         <footer class="foot">
@@ -131,7 +130,11 @@
         </footer>
     </section>
     <!--footer ends-->
-    
 </body>
 
 </html>
+
+
+
+
+    

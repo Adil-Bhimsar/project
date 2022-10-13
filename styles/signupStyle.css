@@ -45,8 +45,6 @@ div .sideImg {
     margin-top: -20px;
 }
 
-/* container class */
-
 .container {
     position: absolute;
     top: 55%;
@@ -55,7 +53,7 @@ div .sideImg {
     background-color: white;
     border: 2px solid white;
     border-radius: 5px;
-    height: 370px;
+    height: 470px;
     color: #4287f5;
     box-shadow: 2px 2px 4px black;
 
@@ -97,24 +95,12 @@ div .sideImg {
 }
 
 .container .inputArea,
-#submit,
-.links {
+.submit {
     position: relative;
     top: -180px
 }
 
-.error{
-    color: rgb(252, 50, 50);
-}
-
-.success{
-    color: rgb(37, 122, 37);
-}
-
-/*styling login input ends
-
-/*styling submit button starts*/
-.container #submit {
+.container .submit {
     margin-left: 100px;
     padding: 10px 20px;
     border: 2px solid #4287f5;
@@ -122,49 +108,32 @@ div .sideImg {
     border-radius: 5px;
     color: white;
 }
-.container #submit a{
-    text-decoration: none;
-    color: white;
-}
 
-.container #submit:hover {
+.container .submit:hover {
     border: 2px solid #1330eb;
     background-color: #1330eb;
     color: white;
 
 }
 
-/*styling submit button ends*/
-
-/*styling anchor tag of forgot password and signup*/
-
-.container .links a {
-    color: #4287f5;
-    text-decoration: none;
+.alreadyAccount{
+    position: absolute;
+    bottom: 10px;
+    left: 60px;
+}
+.alreadyAccount a{
+ 
+ color: #4287f5;;
+ 
 }
 
-.container .links a:hover {
-
+/* .alreadyAccount a:hover{
     text-decoration: underline;
-}
-
-.container .links ul li {
-
-    display: inline-block;
-}
-
-.container .links {
-    padding-left: 60px;
-}
-
-/*styling anchor tag of forgot password and signup ends*/
-
-/*styling policies*/
-
+} */
 .policies {
     position: absolute;
     right: 210px;
-    bottom: 80px;
+    bottom: 30px;
 
 }
 
@@ -183,8 +152,6 @@ div .sideImg {
     text-decoration: underline;
 }
 
-/*styling policies ends*/
-
 /*styling footer*/
 
 
@@ -194,7 +161,7 @@ div .sideImg {
 
 
     padding: 40px 100px;
-    margin-top: 20px;
+    margin-top: 70px;
 
 
 }
@@ -214,7 +181,7 @@ div .sideImg {
     position: absolute;
     left: 400px;
 
-    top: 702px;
+    top: 755px;
 }
 
 .foot .socialFooter i {
@@ -229,13 +196,13 @@ div .sideImg {
 
 .foot .makeMoney {
     position: absolute;
-    top: 702px;
+    top: 755px;
     right: 500px;
 }
 
 .foot .help {
     position: absolute;
-    top: 702px;
+    top: 755px;
     right: 150px;
 }
 
